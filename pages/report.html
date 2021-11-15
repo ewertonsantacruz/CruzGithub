@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="../css/style.css">
+    <title>Report</title>
+</head>
+<style>
+.report-grid-container{
+    display: grid;
+    width: 100vw;
+    height: 400vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(48, 1fr);
+}
+/*report page*/
+.first-report{
+    grid-area: 1/1/10/12;
+    border: 0;
+    
+}
+.first-report iframe{
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    float: right;
+}
+.first-report h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+.first-report img{
+    float: left;
+    width: 50%;
+    height: 80%;
+    padding: 0px;
+}
+.second-report{
+    grid-area: 10/1/20/12;
+    border: 0;
+    
+}
+.second-report iframe{
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    float: right;
+}
+.second-report h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    padding: 15px;
+}
+.second-report img{
+    float: left;
+    width: 50%;
+    height: 80%;
+    padding: 0px;
+}
+.third-report{
+    grid-area: 20/1/30/12;
+    border: 0;
+    
+}
+.third-report iframe{
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    float: right;
+}
+.third-report h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+.third-report img{
+    float: left;
+    width: 50%;
+    height: 80%;
+    padding: 0px;
+}
+.fourth-report{
+    grid-area: 30/1/40/12;
+    border: 0;
+    
+}
+.fourth-report iframe{
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    float: right;
+}
+.fourth-report h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+.fourth-report img{
+    float: left;
+    width: 50%;
+    height: 80%;
+    padding: 0px;
+}
+
+/*end of report page*/
+
+</style>
+<body>
+    <div class="report-grid-container">
+    
+       <div class="first-report">
+        <h1>HTML5 Validation</h1>
+        <img src="../images/validations/images/html5.jpg" alt="html5">
+        <iframe src="../images/validations/(X)HTML5 validation results for https___ewertonsantacruz.github.io_CruzGithub_.pdf"></iframe>
+       </div>
+    
+       <div class="second-report">
+        <h1>Accessibility</h1>
+        <img src="../images/validations/images/accessibility.jpeg" alt="accessibility">
+        <iframe src="../images/validations/accessibility.pdf"></iframe>
+       </div>
+    
+       <div class="third-report">
+        <h1>CSS</h1>
+        <img src="../images/validations/images/css.png" alt="css">
+        <iframe src="../images/validations/W3C CSS Validator results for style.css (CSS level 3 + SVG).pdf"></iframe>
+        </div>
+        <div class="fourth-report">
+            <h1>Performance</h1>
+            <img src="3" alt="">
+            <iframe src="../images/validations/(X)HTML5 validation results for https___ewertonsantacruz.github.io_CruzGithub_.pdf"></iframe>
+           </div>
+   </div>
+    
+</body>
+</html>

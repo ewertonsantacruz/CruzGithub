@@ -16,6 +16,13 @@ body{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(40, 1fr);
 }
+.report-grid-container{
+    display: grid;
+    width: 100vw;
+    height: 600vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(48, 1fr);
+}
 
 
 .header{
@@ -314,7 +321,32 @@ body{
     font-size: 12px;
     font-family: 'Marvel', sans-serif;
 }
-
+/*report page*/
+.first-report{
+    grid-area: 1/1/12/12;
+    border: 1px solid black;
+}
+.first-report iframe{
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+    float: right;
+}
+.second-report{
+    grid-area: 12/1/24/12;
+    border: 1px solid black;
+}
+.second-report iframe{
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+    float: right;
+}
+.third-report{
+    grid-area: 24/1/36/12;
+    border: 1px solid black;
+}
+/*end of report page*/
 
 
 
