@@ -16,13 +16,6 @@ body{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(40, 1fr);
 }
-.report-grid-container{
-    display: grid;
-    width: 100vw;
-    height: 600vh;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(48, 1fr);
-}
 
 
 .header{
@@ -160,80 +153,8 @@ body{
     margin-right: 25%;
     padding: 15px;
 }
-.media-firm{
-    grid-area: 3/1/11/12;
-    display: table;
-}
-.first-media-firm{
-    width: 33%;
-    display: table-cell;
-    
-    
-}
-.first-media-firm img{
-    width: 100px;
-    height: 120px;
-    float: left;
-    margin-left: 160px;
-    
-}
-.first-media-firm h1{
-    font-size: 12px;
-    margin-left: 160px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-.second-media-firm{
-    width: 33%;
-    display: table-cell;
-    
-}
-.second-media-firm img{
-    width: 100px;
-    height: 120px;
-    float: left;
-    margin-left: 200px;
-    
-}
-.second-media-firm h1{
-    font-size: 12px;
-    margin-left: 160px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.third-media-firm{
-    width: 33%;
-    display: table-cell;
-    
-}
-.third-media-firm img{
-    width: 100px;
-    height: 120px;
-    float: left;
-    margin-left: 180px;
-    
-}
-.third-media-firm h1{
-    font-size: 12px;
-    margin-left: 160px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-.footer{
-    grid-area: 11/1/18/13;
-    background-color: rgb(236, 20, 20);
-    text-decoration: none;
-    color: black;
-   
-}
-.footer a{
-    font-size: 12px;
-    
-    
-}
-.footer h1{
-    font-size: 12px;
-    font-family: 'Marvel', sans-serif;
-}
+
 
 
 .contact-form{
@@ -321,32 +242,34 @@ body{
     font-size: 12px;
     font-family: 'Marvel', sans-serif;
 }
-/*report page*/
-.first-report{
-    grid-area: 1/1/12/12;
-    border: 1px solid black;
-}
-.first-report iframe{
-    width: 50%;
-    height: 90%;
-    padding: 10px;
-    float: right;
-}
-.second-report{
-    grid-area: 12/1/24/12;
-    border: 1px solid black;
-}
-.second-report iframe{
-    width: 50%;
-    height: 90%;
-    padding: 10px;
-    float: right;
-}
-.third-report{
-    grid-area: 24/1/36/12;
-    border: 1px solid black;
-}
-/*end of report page*/
+.jumbotrom{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 50vh;
+    padding: 1em;
+  }
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #141414;
+    padding: 25px;
+  }
+  
+  .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    max-height: 480px;
+  }
+  
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+  }
+  .nav-item{
+    margin-right: 20px;
+  }
+
+
 
 
 
